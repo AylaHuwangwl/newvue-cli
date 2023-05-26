@@ -1,0 +1,1 @@
+export declare function createProject(option:any):Promise<void>

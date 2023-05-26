@@ -1,0 +1,36 @@
+{
+  "name": "newVue-cli",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "newvue": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib",
+    "cjs",
+    "template",
+    "tsconfig.json",
+    "preset.cjs"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "commander": "^10.0.1",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "install": "^0.13.0",
+    "npm": "^9.6.7"
+  }
+}

@@ -1,0 +1,1 @@
+export const babelconfig = require('./cjs/babel.config.cjs')
